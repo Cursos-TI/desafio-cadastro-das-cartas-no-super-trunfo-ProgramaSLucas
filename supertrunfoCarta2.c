@@ -8,6 +8,8 @@ int main() {
     float area = 1200.25;
     float pib = 300.50;
     int numerospontosTuristicos = 50;
+    float densidade = 7128. 15;
+    float pibpercapita = 35218,.83;
 
     printf("Estado: %d\n", estado);
     printf("Código da Carta: %s\n", codigodacarta);
@@ -16,7 +18,9 @@ int main() {
     printf("Área em Km²: %.2f quilometros quadrado\n", area);
     printf("PIB: %.2f bilhoes de reais\n", pib);
     printf("Número de Pontos Turísticos: %d\n", numerospontosTuristicos);
-
+    printf("Densidade: %.2f\n", densidade);
+    printf("Pib per capita: %.2f\n", pib);
+    
 return 0;
 
 }
