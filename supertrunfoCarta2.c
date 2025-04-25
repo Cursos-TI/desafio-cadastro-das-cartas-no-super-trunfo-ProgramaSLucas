@@ -9,7 +9,7 @@ int main() {
     float pib = 300.50;
     int numerospontosTuristicos = 50;
 
-    printf("Estado: %s\n, estado");
+    printf("Estado: %d\n", estado);
     printf("Código da Carta: %s\n", codigodacarta);
     printf("Cidade: %s\n", cidade);
     printf("População: %d habitantes\n", populacao);
