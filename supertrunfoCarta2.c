@@ -24,8 +24,8 @@ int main() {
     printf("super poder: %.2f\n", superPoder);
 
     //Declarar variaveis de cartas
-    float cartaA = 111328.23;
-    float cartaB = 165368.91;
+    float cartaA = 165368.91;
+    float cartaB = 111328.23;
     int resultado;
 
     //Comparações entre cartas
