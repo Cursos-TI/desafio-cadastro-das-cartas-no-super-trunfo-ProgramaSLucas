@@ -13,6 +13,7 @@ int main(){
     int numeropontosTuristicos = 55;
     float densidade = 6803.60;
     float pibpercapita = 33094.37;
+    float superPoder = 165368.91;
 
     printf("Estado: %d\n", estado);
     printf("Código da Carta: %s\n", codigodacarta);
@@ -23,6 +24,16 @@ int main(){
     printf("Números de pontos Turisticos: %d\n", numeropontosTuristicos);
     printf("Densidade: %.2f\n", densidade);
     printf("Pib per capita: %.2f\n", pib);
+    printf("super poder: %.2f\n", superPoder);
 
+    //Declarar variaveis de cartas
+    float cartaA = 165368.91;
+    float cartaB = 111328.23;
+    int resultado;
+
+    //Comparações entre cartas
+    resultado = cartaA > cartaB;
+
+    printf("cartaA > cartaB: %d\n", cartaA > cartaB);
 
 }
